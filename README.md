@@ -3,5 +3,7 @@
 
 #### Download with linux command: 
 `wget https://raw.githubusercontent.com/ttimt/xmr-stak-cpu-linux/master/run.sh`
+
 `chmod +x run.sh`
+
 `sudo ./run.sh`
