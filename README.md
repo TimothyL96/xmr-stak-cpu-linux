@@ -22,10 +22,15 @@
 
 ###### Second:
 `sudo nano /etc/security/limits.conf`
+
 ###### Edit the lines at the bottom
 `*  soft  memlock 262144`
-`*  hard  memlock 262144`
-`screenshot to be inserted`
 
-#### Finally, run the mining software with
+`*  hard  memlock 262144`
+
+Image:
+![alt text](https://github.com/ttimt/xmr-stak-cpu-linux/raw/master/limits.PNG)
+
+
+### Finally, run the mining software with
 `sudo ./xmr-stak`
