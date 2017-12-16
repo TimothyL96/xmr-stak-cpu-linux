@@ -17,9 +17,10 @@
 ##### First:
 `sudo nano /etc/rc.local`
 
-##### insert the code below before the `exit 0`
+##### Insert the code below before the `exit 0`
 `sysctl -w vm.nr_hugepages=128` or
 `sysctl -w vm.nr_hugepages=256` or
+
 `sysctl -w vm.nr_hugepages=512` or
 `sysctl -w vm.nr_hugepages=1024` or
 
