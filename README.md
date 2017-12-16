@@ -17,7 +17,7 @@
 ##### First, add a command to crontab:
 `sudo crontab -e`
 
-###### Press enter when prompted to choose a text editor
+###### _Press enter when prompted to choose a text editor_
 
 ##### Insert the code below at the last line of the file
 `@reboot sudo sysctl -w vm.nr_hugepages=128` or
