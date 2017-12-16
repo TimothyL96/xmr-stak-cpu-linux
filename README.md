@@ -7,3 +7,7 @@
 `chmod +x run.sh`
 
 `sudo ./run.sh`
+
+##### The download will be at xmr-stak-cpu-linux-master
+##### Run with
+`sudo ./xmr-stak`
