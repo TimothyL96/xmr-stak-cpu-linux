@@ -45,5 +45,5 @@ Image for second:
 
 #### After that, log back into your Linux
 
-### Finally, run the mining software with
+### Finally, go to the downloaded _xmr-stak-cpu_ folder and run the mining software with
 `sudo ./xmr-stak`
