@@ -28,7 +28,7 @@
 
 _Do not surpass your RAM size divided by two_
 
-##### Second:
+##### Secondly, open:
 `sudo nano /etc/security/limits.conf`
 
 ##### Edit the lines at the bottom
