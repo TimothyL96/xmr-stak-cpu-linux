@@ -37,7 +37,7 @@ Image for second:
 ![alt text](https://github.com/ttimt/xmr-stak-cpu-linux/raw/master/limits.PNG)
 
 #### Now restart with 
-`shutdown -r 0`
+`sudo shutdown -r 0`
 
 #### After that, log back into your Linux
 
