@@ -12,8 +12,20 @@
 ##### The download will be at xmr-stak-cpu-linux-master
 `cd xmr-stak-cpu-linux-master/`
 
-##### Before running, we have to change two kinds of memory:
-`sudo sysctl -w vm.nr_hugepages=128`
+#### Before running, we have to change two kinds of memory:
 
-##### Finally, run the mining software with
+###### First:
+`sudo nano /etc/rc.local`
+
+###### insert the code below before the `exit 0`
+`sysctl -w vm.nr_hugepages=128`
+
+###### Second:
+`sudo nano /etc/security/limits.conf`
+###### Edit the lines at the bottom
+`*  soft  memlock 262144`
+`*  hard  memlock 262144`
+`screenshot to be inserted`
+
+#### Finally, run the mining software with
 `sudo ./xmr-stak`
