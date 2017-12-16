@@ -1,6 +1,6 @@
 # Xmr-stak-cpu-linux
 ### Monero mining software on Linux
-#### No donation
+#### No 2% donation
 
 #### Download with linux command: 
 `wget https://raw.githubusercontent.com/ttimt/xmr-stak-cpu-linux/master/run.sh`
