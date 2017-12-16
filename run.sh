@@ -4,6 +4,7 @@
 # auto install dependency install
 
 
+apt update
 apt -y install unzip libhwloc-dev libmicrohttpd-dev
 wget https://github.com/ttimt/xmr-stak-cpu-linux/archive/master.zip
 unzip master.zip
