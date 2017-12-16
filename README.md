@@ -24,7 +24,9 @@
 `@reboot sudo sysctl -w vm.nr_hugepages=256` or
 
 `@reboot sudo sysctl -w vm.nr_hugepages=512` or
-`@reboot sudo sysctl -w vm.nr_hugepages=1024`
+`@reboot sudo sysctl -w vm.nr_hugepages=1024` or
+
+`@reboot sudo sysctl -w vm.nr_hugepages=2048`
 
 _depending on your RAM size divide by two_
 
