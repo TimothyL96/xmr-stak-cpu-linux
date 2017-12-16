@@ -14,15 +14,17 @@
 
 #### Before running, we have to change two kinds of memory:
 
-##### First:
-`sudo nano /etc/rc.local`
+##### First, add a command to crontab:
+`sudo crontab -e`
 
-##### Insert the code below before the `exit 0`
-`sysctl -w vm.nr_hugepages=128` or
-`sysctl -w vm.nr_hugepages=256` or
+###### Press enter when prompted to choose a text editor
 
-`sysctl -w vm.nr_hugepages=512` or
-`sysctl -w vm.nr_hugepages=1024`
+##### Insert the code below at the last line of the file
+`@reboot sudo sysctl -w vm.nr_hugepages=128` or
+`@reboot sudo sysctl -w vm.nr_hugepages=256` or
+
+`@reboot sudo sysctl -w vm.nr_hugepages=512` or
+`@reboot sudo sysctl -w vm.nr_hugepages=1024`
 
 _depending on your RAM size divide by two_
 
