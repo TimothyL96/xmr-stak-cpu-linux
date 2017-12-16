@@ -29,6 +29,7 @@
 `*  hard  memlock 262144`
 
 Image:
+
 ![alt text](https://github.com/ttimt/xmr-stak-cpu-linux/raw/master/limits.PNG)
 
 
