@@ -10,5 +10,10 @@
 `sudo ./run.sh`
 
 ##### The download will be at xmr-stak-cpu-linux-master
-##### Run with
+`cd xmr-stak-cpu-linux-master/`
+
+##### Before running, we have to change two kinds of memory:
+`sudo sysctl -w vm.nr_hugepages=128`
+
+##### Finally, run the mining software with
 `sudo ./xmr-stak`
