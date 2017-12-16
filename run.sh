@@ -5,8 +5,6 @@
 
 
 apt update
-apt -y install unzip libhwloc-dev libmicrohttpd-dev
-wget https://github.com/ttimt/xmr-stak-cpu-linux/archive/master.zip
-unzip master.zip
-clear
-cd xmr-stak-cpu-linux-master
+apt -y install unzip subversion libhwloc-dev libmicrohttpd-dev
+svn checkout https://github.com/ttimt/xmr-stak-cpu-linux/trunk/xmr-stak-cpu
+cd xmr-stak-cpu
