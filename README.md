@@ -23,6 +23,7 @@
 
 `sysctl -w vm.nr_hugepages=512` or
 `sysctl -w vm.nr_hugepages=1024`
+
 _depending on your RAM size divide by two_
 
 ##### Second:
