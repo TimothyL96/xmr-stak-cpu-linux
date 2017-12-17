@@ -26,7 +26,7 @@
 
 `@reboot sudo sysctl -w vm.nr_hugepages=512`
 
-_Do not surpass your RAM size 25%_
+_Try not to surpass your RAM size 25%_
 
 ##### Secondly, open:
 `sudo nano /etc/security/limits.conf`
