@@ -32,9 +32,9 @@ _Try not to surpass your RAM size 25%_
 `sudo nano /etc/security/limits.conf`
 
 ##### Edit the lines at the bottom
-`*  soft  memlock 262144`
+`*                soft    memlock         262144`
 
-`*  hard  memlock 262144`
+`*                hard    memlock         2621444`
 
 Image for second:
 
