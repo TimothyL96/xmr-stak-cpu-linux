@@ -21,10 +21,10 @@
 
 ##### Insert the code below at the bottom line of the file
 `@reboot sudo sysctl -w vm.nr_hugepages=128` or
+
 `@reboot sudo sysctl -w vm.nr_hugepages=256` or
 
-`@reboot sudo sysctl -w vm.nr_hugepages=512` or
-`@reboot sudo sysctl -w vm.nr_hugepages=1024`
+`@reboot sudo sysctl -w vm.nr_hugepages=512`
 
 _Do not surpass your RAM size divided by two_
 
