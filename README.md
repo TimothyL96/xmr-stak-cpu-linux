@@ -1,5 +1,5 @@
 # Xmr-stak-cpu-linux
-### Monero mining software on Linux
+### Cryptonight mining software on Linux
 #### Without 2% donation
 
 #### Make a donation to me here:
@@ -37,9 +37,9 @@ _Try not to surpass your RAM size 25%_
 `sudo nano /etc/security/limits.conf`
 
 ##### Edit the lines at the bottom
-`*                soft    memlock         2621444`
+`*                soft    memlock         262144`
 
-`*                hard    memlock         2621444`
+`*                hard    memlock         262144`
 
 Image for second:
 
