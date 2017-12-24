@@ -1,5 +1,5 @@
 # Xmr-stak-cpu-linux
-### Cryptonight mining software on Linux
+### Cryptonight mining software on Linux v2.1
 #### Without 2% donation
 
 #### Make a donation to me here:
